@@ -4,7 +4,7 @@
 
 This package is made for [Faragate.com](http://faragate.com) website that allows developers to work with Faragate Online Payment APIs quickly and easily in node.js!
 ## Dependencies
-This module is depentet on following packages:
+This module is dependent on following packages:
 
  - Request
  - body-parser (Use POST input parameters)
