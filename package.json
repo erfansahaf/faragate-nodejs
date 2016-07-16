@@ -1,0 +1,29 @@
+{
+  "name": "faragate",
+  "version": "1.0.0",
+  "description": "An easy-to-use Node.js package for communicate with Faragate.com Online Payment APIs.",
+  "main": "faragate.js",
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erfansahaf/faragate-nodejs.git"
+  },
+  "keywords": [
+    "Faragate-Nodejs",
+    "Nodejs-Faragate-Api",
+    "Faragate-NPM-Package"
+  ],
+  "author": "Erfan Sahafnejad",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/erfansahaf/faragate-nodejs/issues"
+  },
+  "homepage": "https://github.com/erfansahaf/faragate-nodejs#readme",
+
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "request": "^2.73.0"
+  }
+}
