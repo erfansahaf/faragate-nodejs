@@ -24,10 +24,14 @@ app.get('/', function(req, res){
 });
 app.post("/", function(req, res){
     var token = req.body.Token;
+    var sandBox = req.body.SandBox ? true : false;
+    // You can get invoice number of previous payment request by req.body.InvoiceNumber
+    var invoiceNumber = req.body.InvoiceNumber;
+
     faragate.verifyPayment(marchent, token, function(status, code, message){
         var text = "Payment status: " + status + "<br>Code: " + code + "<br>Message: " + message;
         res.send(text);
-    }, true);
+    }, sandbox);
 })
 
 app.get('/balance', function(req, res){
