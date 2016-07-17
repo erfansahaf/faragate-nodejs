@@ -1,6 +1,6 @@
 {
   "name": "faragate",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "An easy-to-use Node.js package for communicate with Faragate.com Online Payment APIs.",
   "main": "faragate.js",
   "directories": {
