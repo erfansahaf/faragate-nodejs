@@ -79,7 +79,7 @@ app.post("/pay", function(req, res){
 
 ----------
 ### getBalance:
-You can use this function to get your account balance in Rial format. Remember you wille need Faragate WebService Password for working with this method. For set Web Service Password see [this link](https://faragate.com/user/users/change_password).
+You can use this function to get your account balance in Rial format. Remember you will need Faragate WebService Password for working with this method. You can set your Web Service Password [here](https://faragate.com/user/users/change_password).
 
 paramaters:
 
