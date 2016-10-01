@@ -1,5 +1,7 @@
 **Faragate Node.js Module**
 ----------------------------
+[![npm version](https://badge.fury.io/js/faragate.svg)](https://badge.fury.io/js/faragate)
+
 ![Faragate Node.js Module](https://faragate.com/css/home/img/index-options.png)
 
 This package is made for [Faragate.com](http://faragate.com) website that allows developers to work with Faragate Online Payment APIs quickly and easily in node.js!
